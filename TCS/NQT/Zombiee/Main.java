@@ -21,7 +21,7 @@ public class Main {
                 hero -= ((z[i] % 2) + (z[i] / 2));
             }
         }
-        if (flag == 1) {
+        if (flag == 1 && hero > 0) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
